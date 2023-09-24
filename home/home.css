@@ -4,6 +4,7 @@
 }
 body{
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* navbar start */
 #nav_menu:hover{
@@ -38,9 +39,60 @@ nav img{
     border-bottom: 2.5px solid #12e6a6;
 }
 /* navbar end */
+/* navbar 2 start */
+#nav_2{
+    padding: .45rem;
+    background: #e4e4e4;
+    width: 100%;
+    height: 2.5rem;
+}
+#nav_2 a{
+    margin-left: 85%;
+    text-decoration: none;
+    color: #12e6a6;
+}
+#nav_2 a:hover{
+    color: rgb(227, 103, 25);
+}
+/* navbar 2 end */
+/* button start */
+#nav-btn {
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+#nav-btn .btn{
+    padding: .3rem 1rem;
+    margin: 10px 2%;
+    border-radius: 15px;
+    color: #000;
+    background-color: #e8efed;
+}
+#nav-btn .btn:hover{
+    color: #fff;
+    background-color:  rgb(227, 103, 25);
+    border-color: rgb(227, 103, 25);
+}
+/* button end */
+/* carousel start */
+
+/* carousel end */
 /* cards start */
 #cards{
-    width: 100%;
-    /* background: radial-gradient(rgba(227, 103, 25, 1), rgba(18, 230, 166, 0.7)); */
+    margin: 10px 30px 30px 30px;
+}
+#cards h4{
+        margin: 0 0 10px 0;
+}
+.row>*{
+    min-width: 0;
+}
+.col-6{
+    margin: 10px 0;
+    padding: .5%;
+    width: 20%;
 }
 /* cards end */
+/* footer start */
+
+/* footer end */
