@@ -6,7 +6,8 @@ body{
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-/* navbar start */
+
+    /* navbar start */
 #nav_menu:hover{
     color: rgb(227, 103, 25);
     border-bottom: 2.5px solid #12e6a6;
@@ -38,8 +39,9 @@ nav img{
     color: rgb(227, 103, 25);
     border-bottom: 2.5px solid #12e6a6;
 }
-/* navbar end */
-/* navbar 2 start */
+    /* navbar end */
+
+    /* navbar 2 start */
 #nav_2{
     padding: .45rem;
     background: #e4e4e4;
@@ -54,12 +56,13 @@ nav img{
 #nav_2 a:hover{
     color: rgb(227, 103, 25);
 }
-/* navbar 2 end */
-/* button start */
+    /* navbar 2 end */
+
+    /* button start */
 #nav-btn {
     align-items: center;
     justify-content: center;
-    background-color: azure;
+    background-color: white;
 }
 #nav-btn .btn{
     padding: .3rem 1rem;
@@ -73,8 +76,9 @@ nav img{
     background-color:  rgb(227, 103, 25);
     border-color: rgb(227, 103, 25);
 }
-/* button end */
-/* carousel start */
+    /* button end */
+
+    /* carousel start */
 #caro-in{
     align-items: center;
     justify-content: center;
@@ -97,8 +101,9 @@ nav img{
 #caro-icon-2{
     margin-right: 20%;
 }
-/* carousel end */
-/* cards start */
+    /* carousel end */
+
+    /* cards start */
 #cards{
     margin: 10px 30px 30px 30px;
 }
@@ -113,7 +118,37 @@ nav img{
     padding: .5%;
     width: 20%;
 }
-/* cards end */
-/* footer start */
+    /* cards end */
 
-/* footer end */
+    /* footer start */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    height: 100px;
+    background-color: #e4e4e4;
+}
+footer h6{
+    margin: 1rem;
+}
+footer ul{
+    display: flex;
+    margin-right: 10px;
+}
+footer ul li{
+    margin-left: 20px;
+    color: #12e6a6;
+}
+footer ul li:hover{
+    color: rgb(227, 103, 25);
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+footer ul li a:hover{
+    color: rgb(227, 103, 25);
+    border-bottom: 2.5px solid #12e6a6;
+}
+    /* footer end */
