@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+/* navbar start */
+#btn{
+    padding: .3rem 1rem;
+    border-radius: 15px;
+    color: #000;
+    border-color: #12e6a6;
+}
+#btn:hover{
+    color: #fff;
+    background-color:  rgb(227, 103, 25);
+    border-color: rgb(227, 103, 25);
+}
+#sign{
+    margin: 0 .5rem;
+    padding: auto 0;
+}
+#sign:hover{
+    color: rgb(227, 103, 25);
+    border-bottom: 1px solid #12e6a6;
+}
+/* navbar end */
+/* cards start */
+#cards{
+    width: 100%;
+    /* background: radial-gradient(rgba(227, 103, 25, 1), rgba(18, 230, 166, 0.7)); */
+}
+#card_item:hover{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    z-index: 1;
+    width: 30%;
+}
+/* cards end */
