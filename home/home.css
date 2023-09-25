@@ -5,10 +5,19 @@
 body{
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
 }
 
     /* navbar start */
-#nav_menu:hover{
+#nav-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+}
+#nav-menu:hover{
     color: rgb(227, 103, 25);
     border-bottom: 2.5px solid #12e6a6;
 }
@@ -17,7 +26,7 @@ nav img{
     height: 50px;
     border-radius: 50%;
 }
-#drop_items li a:hover{
+#drop-items li a:hover{
     color: rgb(227, 103, 25);
 }
 /* #btn{
@@ -42,18 +51,20 @@ nav img{
     /* navbar end */
 /*=======================================================================*/
     /* navbar 2 start */
-#nav_2{
+#nav-2{
+    margin-top: 80px;
     padding: .45rem;
     background: #c5c5c5;
     width: 100%;
     height: 2.5rem;
+    /* z-index: 1; */
 }
-#nav_2 a{
+#nav-2 a{
     margin-left: 85%;
     text-decoration: none;
     color: #000000;
 }
-#nav_2 a:hover{
+#nav-2 a:hover{
     color: rgb(227, 103, 25);
 }
     /* navbar 2 end */
@@ -141,20 +152,24 @@ nav img{
     /* carousel end */
 /*=======================================================================*/
     /* cards start */
-#cards{
-    margin: 10px 30px 30px 30px;
-}
-#cards h4{
+.container h4{
         margin: 0 0 10px 0;
 }
 .row>*{
     min-width: 0;
 }
-.col-6{
-    margin: 10px 0;
-    padding: .5%;
-    width: 20%;
+#card-item h5{
+    margin: 0;
+    padding: 0;
 }
+#card-item p{
+    margin: 0;
+    padding: 0;
+}
+#card-item{
+    padding: .5%;
+}
+
     /* cards end */
 /*=======================================================================*/
     /* footer start */
