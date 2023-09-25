@@ -110,7 +110,12 @@ nav img{
 #btn-box:hover::before{
     width: 6em;
 }
-
+#btn-box img{
+    align-items: center;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
 /* other design of button */
 /* #nav-btn .btn{
     padding: .3rem 1rem;
