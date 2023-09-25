@@ -29,6 +29,7 @@ nav img{
 #drop-items li a:hover{
     color: rgb(227, 103, 25);
 }
+
 /* #btn{
     padding: .3rem 1rem;
     border-radius: 15px;
@@ -137,16 +138,22 @@ nav img{
     justify-content: center;
     margin: 10px 25%;
 }
+#caro-item{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
 #caro-item a img{
     height: 30%;
     width: 50%;
     border-radius: 10px;
-    position: relative;
+    align-items: center;
+    justify-content: center;
 }
-#caro-item a h5{
+#caro-item h5{
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 0;
+    left: 8%;
 }
 #caro-icon-1{
     margin-left: 20%;
