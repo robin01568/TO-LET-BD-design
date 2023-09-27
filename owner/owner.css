@@ -46,14 +46,8 @@ nav img{
     background-color:  rgb(227, 103, 25);
     border-color: rgb(227, 103, 25);
 } */
-#sign{
-    margin: 0 .5rem;
-    padding: auto 0;
-    color: #000;
-}
-#sign:hover{
+#profile span:hover{
     color: rgb(227, 103, 25);
-    border-bottom: 2.5px solid #12e6a6;
 }
     /* navbar end */
 /*=======================================================================*/
@@ -69,7 +63,7 @@ nav img{
 #nav-2 a{
     margin-left: 85%;
     text-decoration: none;
-    color: #000;
+    color: #000000;
 }
 #nav-2 a:hover{
     color: rgb(227, 103, 25);
